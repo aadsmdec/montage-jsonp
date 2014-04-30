@@ -22,7 +22,7 @@ Jsonp.makeRequest("http://www.reddit.com/r/kittens.json?limit=100", "jsonp")
 Documentation
 =============
 
-`Json.makeRequest(url, callbackParameter, servicePrefix)` -> {Promise} A promise for the object returned by the request.
+`Jsonp.makeRequest(url, callbackParameter, servicePrefix)` -> {Promise} A promise for the object returned by the request.
 
  - `url` {string} The url for the jsonp endpoint.
  - `[callbackParameter]` {string} The query string component name to be used when passing the function name to the endpoint. `"callback"` by default.
